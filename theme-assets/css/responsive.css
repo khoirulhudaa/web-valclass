@@ -26,8 +26,8 @@
     }
 
     #staticBackdrop {
-      position: relative;
-      margin-top: 110px;
+      position: fixed;
+      margin-top: 200px;
       box-shadow: none;
     }
 }

@@ -5638,12 +5638,12 @@ input:focus ~ .bg-danger
 
 .danger
 {
-    color: #fa626b !important;
+    color:  rgb(3, 107, 243) !important;
 }
 
 .bg-danger
 {
-    background-color: #fa626b !important;
+    background-color:  rgb(3, 107, 243) !important;
 }
 .bg-danger .card-header,
 .bg-danger .card-footer
@@ -5659,7 +5659,7 @@ input:focus ~ .bg-danger
 body.vertical-layout[data-color=bg-danger] .navbar-container,
 body.vertical-layout[data-color=bg-danger] .content-wrapper-before
 {
-    background-color: #fa626b !important;
+    background-color:  rgb(3, 107, 243) !important;
 }
 
 body.horizontal-layout[data-color=bg-danger] .navbar-horizontal
@@ -5669,12 +5669,12 @@ body.horizontal-layout[data-color=bg-danger] .navbar-horizontal
 
 body.horizontal-layout[data-color=bg-danger] .content-wrapper-before
 {
-    background-color: #fa626b !important;
+    background-color:  rgb(3, 107, 243) !important;
 }
 
 .selectboxit.selectboxit-btn.bg-danger
 {
-    background-color: #fa626b !important;
+    background-color:  rgb(3, 107, 243) !important;
 }
 
 .alert-danger
@@ -5690,12 +5690,12 @@ body.horizontal-layout[data-color=bg-danger] .content-wrapper-before
 
 .border-danger
 {
-    border-color: #fa626b;
+    border-color:  rgb(3, 107, 243);
 }
 
 .overlay-danger
 {
-    background: #fa626b;
+    background:  rgb(3, 107, 243);
     /* The Fallback */
     background: rgba(250, 98, 107, .8);
 }
@@ -5703,7 +5703,7 @@ body.horizontal-layout[data-color=bg-danger] .content-wrapper-before
 .btn-danger
 {
     color: #fff; 
-    background-color: #fa626b;
+    background-color:  rgb(3, 107, 243);
 }
 .btn-danger:hover
 {
@@ -5731,14 +5731,14 @@ body.horizontal-layout[data-color=bg-danger] .content-wrapper-before
 
 .btn-outline-danger
 {
-    color: #fa626b; 
-    border-color: #fa626b;
+    color:  rgb(3, 107, 243); 
+    border-color:  rgb(3, 107, 243);
     background-color: transparent;
 }
 .btn-outline-danger:hover
 {
     color: #fff !important; 
-    background-color: #fa626b;
+    background-color:  rgb(3, 107, 243);
     -webkit-box-shadow: 0 1px 2px 0 rgba(250, 98, 107, .451), 0 1px 3px 1px rgba(250, 98, 107, .302) !important;
             box-shadow: 0 1px 2px 0 rgba(250, 98, 107, .451), 0 1px 3px 1px rgba(250, 98, 107, .302) !important;
 }
@@ -5751,7 +5751,7 @@ body.horizontal-layout[data-color=bg-danger] .content-wrapper-before
 input[type='checkbox'].bg-danger + .custom-control-label:before,
 input[type='radio'].bg-danger + .custom-control-label:before
 {
-    background-color: #fa626b !important;
+    background-color:  rgb(3, 107, 243) !important;
 }
 
 /* .custom-control-label{
@@ -5761,33 +5761,33 @@ input[type='radio'].bg-danger + .custom-control-label:before
       } */
 input:focus ~ .bg-danger
 {
-    -webkit-box-shadow: 0 0 0 .075rem #fff, 0 0 0 .21rem #fa626b !important;
-            box-shadow: 0 0 0 .075rem #fff, 0 0 0 .21rem #fa626b !important;
+    -webkit-box-shadow: 0 0 0 .075rem #fff, 0 0 0 .21rem  rgb(3, 107, 243) !important;
+            box-shadow: 0 0 0 .075rem #fff, 0 0 0 .21rem  rgb(3, 107, 243) !important;
 }
 
 .border-danger
 {
-    border: 1px solid #fa626b !important;
+    border: 1px solid  rgb(3, 107, 243) !important;
 }
 
 .border-top-danger
 {
-    border-top: 1px solid #fa626b;
+    border-top: 1px solid  rgb(3, 107, 243);
 }
 
 .border-bottom-danger
 {
-    border-bottom: 1px solid #fa626b;
+    border-bottom: 1px solid  rgb(3, 107, 243);
 }
 
 .border-left-danger
 {
-    border-left: 1px solid #fa626b;
+    border-left: 1px solid  rgb(3, 107, 243);
 }
 
 .border-right-danger
 {
-    border-right: 1px solid #fa626b;
+    border-right: 1px solid  rgb(3, 107, 243);
 }
 
 .danger.darken-1

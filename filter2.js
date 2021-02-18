@@ -95,7 +95,7 @@ inputBox.onkeyup = (e) => {
            return data.toLocaleUpperCase().startsWith(userData.toLocaleUpperCase());
         });
         emptyArray = emptyArray.map((data) => {
-            return data = `<a href="./property/${data}.html"><li><i class="la la-circle-o-notch"></i> ${data}</li></a>`;
+            return data = `<a href="./${data}.html"><li><i class="la la-circle-o-notch"></i> ${data}</li></a>`;
         })
         console.log(emptyArray)
         suggboxS.classList.add('activex')

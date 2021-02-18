@@ -29,6 +29,16 @@ body {
     background-color: rgb(54, 54, 54)
 }
 
+.menu-navigation ul li a i.hover {
+    box-shadow:  rgb(3, 107, 243);
+ }
+.menu-navigation ul li.hover {
+    box-shadow:  rgb(3, 107, 243);
+ }
+.menu-navigation ul li a.hover {
+    box-shadow:  rgb(3, 107, 243);
+ }
+
 .modal.activex {
     display: block;
     height: 500px;
@@ -70,6 +80,10 @@ body {
     color: white;
     padding: 3px;
     border-radius: 33px;
+}
+
+.modal .btn-close {
+    margin: 5px;
 }
 
 #btx {
@@ -119,8 +133,11 @@ pre, code {
     }
 }
 
-@media screen and(max-width: 357px) {
+@media(max-width: 767px) {
     .header-navbar {
         background-color: rgb(34, 30, 58);
+    }
+    .clr3 {
+        display: none;
     }
 }

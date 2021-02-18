@@ -1140,7 +1140,7 @@ select.form-control
 
 .btn-danger ~ .dropdown-menu .dropdown-item.active
 {
-    background-color: #fa626b;
+    background-color:  rgb(3, 107, 243);
 }
 
 .btn-info ~ .dropdown-menu .dropdown-item.active
@@ -2922,12 +2922,12 @@ select.form-control
 
 .badge-danger
 {
-    background-color: #fa626b;
+    background-color:  rgb(3, 107, 243);
 }
 .badge-danger.badge-glow
 {
-    -webkit-box-shadow: 0 0 10px #fa626b;
-            box-shadow: 0 0 10px #fa626b;
+    -webkit-box-shadow: 0 0 10px  rgb(3, 107, 243);
+            box-shadow: 0 0 10px  rgb(3, 107, 243);
 }
 .badge-danger[href]:hover,
 .badge-danger[href]:focus
@@ -2999,7 +2999,7 @@ select.form-control
 .token.attr-value,
 .token.keyword
 {
-    color: #fa626b;
+    color:  rgb(3, 107, 243);
 }
 
 code[class*='language-'],
@@ -3295,12 +3295,12 @@ pre[class*='language-']
 }
 .nav-vertical .nav-left.nav-tabs.nav-border-left li.nav-item a.nav-link
 {
-    color: #fa626b;
+    color:  rgb(3, 107, 243);
 }
 .nav-vertical .nav-left.nav-tabs.nav-border-left li.nav-item a.nav-link.active
 {
     color: #555; 
-    border-left: 3px solid #fa626b;
+    border-left: 3px solid  rgb(3, 107, 243);
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
@@ -3351,12 +3351,12 @@ pre[class*='language-']
 }
 .nav-vertical .nav-right.nav-tabs.nav-border-right li.nav-item a.nav-link
 {
-    color: #fa626b;
+    color:  rgb(3, 107, 243);
 }
 .nav-vertical .nav-right.nav-tabs.nav-border-right li.nav-item a.nav-link.active
 {
     color: #555; 
-    border-right: 3px solid #fa626b;
+    border-right: 3px solid  rgb(3, 107, 243);
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
@@ -3396,7 +3396,7 @@ pre[class*='language-']
 }
 .nav-link.active
 {
-    color: #fa626b;
+    color:  rgb(3, 107, 243);
 }
 .nav-link.disabled
 {

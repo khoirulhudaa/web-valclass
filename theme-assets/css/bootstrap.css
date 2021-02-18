@@ -3393,7 +3393,7 @@ select.form-control-lg:not([size]):not([multiple]),
     width: 100%;
     margin-top: .25rem;
 
-    color: #fa626b;
+    color: rgb(3, 107, 243);
 }
 
 .invalid-tooltip
@@ -3422,7 +3422,7 @@ select.form-control-lg:not([size]):not([multiple]),
 .custom-select:invalid,
 .custom-select.is-invalid
 {
-    border-color: #fa626b;
+    border-color: rgb(3, 107, 243);
 }
 .was-validated .form-control:invalid:focus,
 .form-control.is-invalid:focus,
@@ -3430,7 +3430,7 @@ select.form-control-lg:not([size]):not([multiple]),
   .custom-select:invalid:focus,
 .custom-select.is-invalid:focus
 {
-    border-color: #fa626b;
+    border-color: rgb(3, 107, 243);
     -webkit-box-shadow: 0 0 0 .2rem rgba(250, 98, 107, .25);
             box-shadow: 0 0 0 .2rem rgba(250, 98, 107, .25);
 }
@@ -3451,7 +3451,7 @@ select.form-control-lg:not([size]):not([multiple]),
 .was-validated .form-check-input:invalid ~ .form-check-label,
 .form-check-input.is-invalid ~ .form-check-label
 {
-    color: #fa626b;
+    color: rgb(3, 107, 243);
 }
 
 .was-validated .form-check-input:invalid ~ .invalid-feedback,
@@ -3465,7 +3465,7 @@ select.form-control-lg:not([size]):not([multiple]),
 .was-validated .custom-control-input:invalid ~ .custom-control-label,
 .custom-control-input.is-invalid ~ .custom-control-label
 {
-    color: #fa626b;
+    color: rgb(3, 107, 243);
 }
 .was-validated .custom-control-input:invalid ~ .custom-control-label::before,
 .custom-control-input.is-invalid ~ .custom-control-label::before
@@ -3497,7 +3497,7 @@ select.form-control-lg:not([size]):not([multiple]),
 .was-validated .custom-file-input:invalid ~ .custom-file-label,
 .custom-file-input.is-invalid ~ .custom-file-label
 {
-    border-color: #fa626b;
+    border-color: rgb(3, 107, 243);
 }
 .was-validated .custom-file-input:invalid ~ .custom-file-label::before,
 .custom-file-input.is-invalid ~ .custom-file-label::before
@@ -3940,8 +3940,8 @@ fieldset:disabled a.btn
 .btn-danger
 {
     color: #fff;
-    border-color: #fa626b; 
-    background-color: #fa626b;
+    border-color: rgb(3, 107, 243); 
+    background-color: rgb(3, 107, 243);
 }
 .btn-danger:hover
 {
@@ -3959,8 +3959,8 @@ fieldset:disabled a.btn
 .btn-danger:disabled
 {
     color: #fff;
-    border-color: #fa626b; 
-    background-color: #fa626b;
+    border-color: rgb(3, 107, 243); 
+    background-color: rgb(3, 107, 243);
 }
 .btn-danger:not(:disabled):not(.disabled):active,
 .btn-danger:not(:disabled):not(.disabled).active,
@@ -4267,16 +4267,16 @@ fieldset:disabled a.btn
 
 .btn-outline-danger
 {
-    color: #fa626b;
-    border-color: #fa626b; 
+    color: rgb(3, 107, 243);
+    border-color: rgb(3, 107, 243); 
     background-color: transparent;
     background-image: none;
 }
 .btn-outline-danger:hover
 {
     color: #fff;
-    border-color: #fa626b; 
-    background-color: #fa626b;
+    border-color: rgb(3, 107, 243); 
+    background-color: rgb(3, 107, 243);
 }
 .btn-outline-danger:focus,
 .btn-outline-danger.focus
@@ -4287,7 +4287,7 @@ fieldset:disabled a.btn
 .btn-outline-danger.disabled,
 .btn-outline-danger:disabled
 {
-    color: #fa626b;
+    color: rgb(3, 107, 243);
     background-color: transparent;
 }
 .btn-outline-danger:not(:disabled):not(.disabled):active,
@@ -4295,8 +4295,8 @@ fieldset:disabled a.btn
 .show > .btn-outline-danger.dropdown-toggle
 {
     color: #fff;
-    border-color: #fa626b; 
-    background-color: #fa626b;
+    border-color: rgb(3, 107, 243); 
+    background-color: rgb(3, 107, 243);
 }
 .btn-outline-danger:not(:disabled):not(.disabled):active:focus,
 .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
@@ -7028,7 +7028,7 @@ input[type='button'].btn-block
 .badge-danger
 {
     color: #fff;
-    background-color: #fa626b;
+    background-color: rgb(3, 107, 243);
 }
 .badge-danger[href]:hover,
 .badge-danger[href]:focus
@@ -8780,7 +8780,7 @@ button.bg-warning:focus
 
 .bg-danger
 {
-    background-color: #fa626b !important;
+    background-color: rgb(3, 107, 243) !important;
 }
 
 a.bg-danger:hover,
@@ -8904,7 +8904,7 @@ button.bg-dark:focus
 
 .border-danger
 {
-    border-color: #fa626b !important;
+    border-color: rgb(3, 107, 243) !important;
 }
 
 .border-light
@@ -12693,7 +12693,7 @@ a.text-warning:focus
 
 .text-danger
 {
-    color: #fa626b !important;
+    color: rgb(3, 107, 243) !important;
 }
 
 a.text-danger:hover,
