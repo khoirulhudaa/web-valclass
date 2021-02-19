@@ -3884,13 +3884,13 @@ table {
    display: flex;
    flex-wrap: wrap;
    align-content: flex-start;
-   background-color: #ffffff;
+   background-color: #e7e7e7;
    height: max-content;
    padding: 14px 40px;
 }
 
 .parentBoxShadow .visi {
-   background-color: #444444;
+   background-color: #ffffff;
    margin: 20px;
    width: 150px;
    height: 100px;
@@ -3908,7 +3908,7 @@ table {
 
 .parentTextShadow span {
    background-color: transparent;
-   font-size: 23px;
+   font-size: 33px;
  }
 
  
