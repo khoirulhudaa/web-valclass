@@ -10,7 +10,7 @@ let suggestions = [
     'alignItems',
     'alignSelf',
     'animation',
-    'backgroundAttachment',
+    'backgroundAttach..',
     'backgroundClip',
     'backgroundColor',
     'backgroundPosition',
