@@ -15,6 +15,20 @@ body {
     background-color: rgb(235, 235, 235);
 }
 
+.btd {
+    transition: 0.3s;
+}
+
+.btd:hover {
+    filter: brightness(90%);
+    transition: 0.3s;
+}
+
+.btd:active {
+    transform: scale(0.95);
+    transition: 0.3s;
+}
+
 .autocom-box {
     display: none;
     height: 90px;
@@ -137,7 +151,24 @@ pre, code {
     .header-navbar {
         background-color: rgb(34, 30, 58);
     }
+
+    .clr2 {
+        display: none;
+    }
+
     .clr3 {
         display: none;
+    }
+    
+    .modal.activex {
+        display: block;
+        height: 350px;
+        border-radius: 7px;
+        overflow: auto;
+        margin-top: 100px;
+    }
+
+    .btd {
+        margin-top: 30px;
     }
 }
