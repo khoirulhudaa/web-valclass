@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 576px) {
     .cdf {
         height: 100vh;
         position: relative;
@@ -30,4 +30,9 @@
       margin-top: 200px;
       box-shadow: none;
     }
+
+    .v1 {
+        display: none;
+    }
+
 }

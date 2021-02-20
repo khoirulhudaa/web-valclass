@@ -1648,7 +1648,8 @@ table {
    background-color: rgb(165, 165, 165);
    width: 100%;
    color: white;
-   height: 280px;
+   height: 300px;
+   overflow: auto;
    text-align: left;
    padding: 40px;
 }
@@ -1656,9 +1657,13 @@ table {
 .parentVisiletter .visi {
    width: 100%;
    text-align: left;
-   padding: 0;
    top: 0;
+   padding: 10px;
    background-color: transparent
+ }
+
+.parentVisiletter .visi .poppins {
+ margin-left: -15px;
  }
 
  .parentVisiletter2 {
@@ -3187,7 +3192,8 @@ table {
    width: 100%;
    color: rgb(212, 255, 246);
    display: flex;
-   height: 60px;
+   flex-wrap: wrap;
+   height: max-content;
    padding-top: 10px;
    padding-bottom: 10px;
    padding-left: 20px;
