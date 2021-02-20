@@ -2405,9 +2405,9 @@ table {
    padding: 20px;
 }
  
- .animf1 {
+.animf1 {
    background-color: transparent;
-   width: 50%;
+   width: 100%;
    text-align: center;
    height: max-content;
    border-radius: 5px;
@@ -2451,7 +2451,7 @@ table {
  
  .animf2 {
    background-color: transparent;
-   width: 50%;
+   width: 100%;
    text-align: center;
    height: max-content;
    border-radius: 5px;
@@ -2483,7 +2483,7 @@ table {
  }
  
  .parentFocus3 {
-   background-color: rgb(10, 149, 230);
+   background-color: rgb(105, 10, 230);
    width: 100%;
    color: rgb(46, 46, 46);
    height: max-content;
@@ -2495,7 +2495,7 @@ table {
  
  .animf3 {
    background-color: transparent;
-   width: 50%;
+   width: 100%;
    text-align: center;
    height: max-content;
    border-radius: 5px;
@@ -2528,7 +2528,7 @@ table {
  }
  
  .parentFocus4 {
-   background-color: rgb(10, 149, 230);
+   background-color: rgb(5, 216, 205);
    width: 100%;
    color: rgb(46, 46, 46);
    height: max-content;
@@ -2540,7 +2540,7 @@ table {
  
  .animf4 {
    background-color: transparent;
-   width: 50%;
+   width: 100%;
    text-align: center;
    height: max-content;
    border-radius: 5px;
@@ -2573,8 +2573,9 @@ table {
     border-left: none;
     border-right: none;
     outline: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(255, 255, 255);
     padding: 10px;
+    color: white;
  }
 
  .parentActive{
