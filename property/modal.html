@@ -25,7 +25,7 @@
 <body class="vertical-layout vertical-menu 2-columns menu-expanded fixed-navbar" data-open="click"
 	data-menu="vertical-menu" data-col="2-columns">
 
-	<div class="v-modal-green modal" style="font-family: 'Poppins', sans-serif;">
+	<div class="v-modal-green modals" style="font-family: 'Poppins', sans-serif;">
 		<div class="v-modal-content">
 		   <div class="v-modal-head">
 			  <h2 style="color: white;">v-modal</h2>
@@ -241,10 +241,10 @@
 
 	<!-- BEGIN VENDOR JS-->
 	<script>
-		if (document.querySelector('.modal')) {
+		if (document.querySelector('.modals')) {
 
 		document.querySelector('.v-modal-content').classList.add('hiddenModal')
-		document.querySelector('.modal').classList.add('hiddenSModals')
+		document.querySelector('.modals').classList.add('hiddenSModals')
 
 		if (document.querySelector('.v-close')) {
 		document.querySelector('.v-close').innerHTML = '<img class="v-times-icon-xgHs76" src="./times-solid.svg">'
@@ -255,8 +255,8 @@
 		document.querySelector('.v-modal-content').classList.add('hiddenModal')
 		document.querySelector('.v-modal-content').classList.remove('showModal-6gsdz')
 		setTimeout(() => {
-			document.querySelector('.modal').classList.add('hiddenSModals')
-			document.querySelector('.modal').classList.remove('showSModals')
+			document.querySelector('.modals').classList.add('hiddenSModals')
+			document.querySelector('.modals').classList.remove('showSModals')
 		}, 300)
 		})
 		}
@@ -264,8 +264,8 @@
 		document.querySelector('.v-btn-modal').addEventListener('click', () => {
 		document.querySelector('.v-modal-content').classList.add('showModal-6gsdz')
 		document.querySelector('.v-modal-content').classList.remove('hiddenModal')
-		document.querySelector('.modal').classList.add('showSModals')
-		document.querySelector('.modal').classList.remove('hiddenSModals')
+		document.querySelector('.modals').classList.add('showSModals')
+		document.querySelector('.modals').classList.remove('hiddenSModals')
 		})
 		}
 	</script>

@@ -1469,7 +1469,7 @@ table {
    justify-content: center;
    align-items: center;
 }
-.modal::before {
+.modals::before {
    position: absolute;
    top: 0;
    left: 0;
@@ -1479,7 +1479,7 @@ table {
    width: 100vw;
    height: 100vh;
    background: #000;
-   opacity: 0;
+   opacity: 0.7;
 }
 
 .v-modal h2 {
