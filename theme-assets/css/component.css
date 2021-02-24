@@ -1479,7 +1479,7 @@ table {
    width: 100vw;
    height: 100vh;
    background: #000;
-   opacity: 0.6;
+   opacity: 0;
 }
 
 .v-modal h2 {
@@ -1575,7 +1575,7 @@ table {
       background-color: #fff;
       animation: slideUp-12gdg .5s ease-in;
       box-shadow: 2px 2px 20px rgb(73, 73, 73);
-      transform: rotateX(90deg);
+      transform: scale() rotateX(90deg);
    }
 }
 

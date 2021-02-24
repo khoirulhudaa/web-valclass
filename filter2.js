@@ -53,6 +53,7 @@ let suggestions = [
     'letterSpacing',
     'lineHeight',
     'margin',
+    'modal',
     'navbar',
     'office',
     'opacity',
