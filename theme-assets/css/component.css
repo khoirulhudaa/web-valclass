@@ -1449,6 +1449,155 @@ table {
    background-color: rgb(182, 118, 255);
  }
 
+ .parentModal {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #06f0a9;
+   height: 170px;
+   padding:  14px 40px;
+ }
+
+ .v-modal-green {
+   position: fixed;
+   left: 0;
+   padding: 0;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.modal::before {
+   position: absolute;
+   top: 0;
+   left: 0;
+   content: '';
+   z-index: 1;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   background: #000;
+   opacity: 0.6;
+}
+
+.v-modal h2 {
+   font-weight: normal;
+}
+
+.v-modal-content {
+   position: absolute;
+   top: 10vh;
+   width: 500px;
+   min-height: 250px;;
+   overflow: hidden;
+   border-radius: 8px;
+   opacity: 1;
+   z-index: 3;
+   background-color: #fff;
+   animation: slideUp-12gdg .5s ease-in;
+   box-shadow: 2px 2px 20px rgb(73, 73, 73);
+   transform: scale() rotateX(90deg);
+}
+
+@keyframes slideUp-12gdg {
+   0% {
+      opacity: 0;
+      top: 0;
+      display: none;
+   }
+   100% {
+      display: block;
+      top: 10vh;
+      opacity: 1;
+      transform: scale(1);
+      
+   }
+}
+
+.v-modal-head img {
+   background-color: #fff;
+   border-radius: 11px;
+   padding: 2.8px 5px;
+   cursor: pointer;
+   transition: 0.4s;
+}
+
+.v-modal-head img:hover {
+   transition: 0.4s;
+   transform: scale(0.93);
+}
+
+.v-modal-head {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+   padding: 10px 30px;
+   background-color: rgb(14, 253, 201);
+}
+
+.hiddenModal {
+   transition: 0.3s;
+   top: 0vh;
+   opacity: 0;
+}
+
+.showModal-6gsdz {
+   transition: 0.5s;
+   top: 10vh;
+   opacity: 1;
+}
+
+.hiddenSModals {
+   z-index: -5;
+   transition: 0.3s;
+   opacity: 0;
+}
+
+.showSModals {
+   z-index: 9999;
+   transition: 0.5s;
+   opacity: 1;
+}
+
+@media screen and (max-width: 510px){
+   .v-modal-content {
+      position: absolute;
+      top: 10vh;
+      width: 90%;
+      min-height: 250px;
+      overflow: hidden;
+      border-radius: 8px;
+      opacity: 1;
+      z-index: 3;
+      background-color: #fff;
+      animation: slideUp-12gdg .5s ease-in;
+      box-shadow: 2px 2px 20px rgb(73, 73, 73);
+      transform: rotateX(90deg);
+   }
+}
+
+.v-btn-modal {
+   position: relative;
+   border: none;
+   outline: none;
+   font-size: 20px;
+   border-radius: 5px;
+   box-shadow: 4px 4px 10px rgb(109, 109, 109);
+   padding: 6px 8px;
+   background-color: rgb(255, 255, 255);
+   font-weight: 500;
+   transition: 0.3s;
+   font-family: 'Poppins', sans-serif;
+}
+
+.v-btn-modal:active {
+   margin-top: -9px;
+   transition: 0.3s;
+}
+
  .parentMargin .as1a {
    position: absolute;
    margin-left: 110px;
