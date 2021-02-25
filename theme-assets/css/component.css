@@ -1469,6 +1469,7 @@ table {
    justify-content: center;
    align-items: center;
 }
+
 .modals::before {
    position: absolute;
    top: 0;

@@ -7,6 +7,246 @@ body {
     padding: 0 5px;
 }
 
+.dana {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .dana::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    z-index: 3;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    opacity: 0.7;
+ }
+ 
+ .dana-content-head h2 {
+    font-weight: normal;
+    margin-top: 7px;
+    color: white;
+    font-size: 23px;
+ }
+ 
+ .dana-content {
+    position: absolute;
+    top: 10vh;
+    width: 500px;
+    min-height: 250px;;
+    overflow: hidden;
+    border-radius: 8px;
+    opacity: 1;
+    z-index: 3;
+    background-color: #fff;
+    animation: slideUp-12gdg .5s ease-in;
+    box-shadow: 2px 2px 20px rgb(73, 73, 73);
+    transform: scale() rotateX(90deg);
+ }
+ 
+ @keyframes slideUp-12gdg {
+    0% {
+       opacity: 0;
+       top: 0;
+       display: none;
+    }
+    100% {
+       display: block;
+       top: 10vh;
+       opacity: 1;
+       transform: scale(1);
+       
+    }
+ }
+ 
+ .dana-content-head img {
+    background-color: #fff;
+    border-radius: 11px;
+    padding: 2.8px 5px;
+    cursor: pointer;
+    transition: 0.4s;
+ }
+ 
+ .dana-content-head img:hover {
+    transition: 0.4s;
+    transform: scale(0.93);
+ }
+ 
+ .dana-content-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 30px;
+    background-color: rgb(3, 98, 231);
+ }
+
+ .dana-info {
+     font-size: 15.6px;
+ }
+
+ .dana-content-body {
+     padding: 30px;
+ }
+
+ .dana-list-button {
+     margin-top: 35px;
+ }
+
+ .dana-list-button button {
+     margin: 0 15px 0 0;
+     padding: 6px 14px;
+     transition: 0.3s;
+ }
+
+ .dana-list-button button:hover {
+     transition: 0.3s;
+     filter: brightness(90%);
+ }
+
+ .btn-dana {
+     background-color: #fff;
+     color: white;
+ }
+ 
+.dana-understand {
+    margin-top: 23px;
+}
+
+ .dana-understand input {
+     margin-left: 6px;
+     transform: scale(1.6);
+ }
+
+ .dana-understand span {
+     font-size: 16px;
+     margin-left: 10px;
+ }
+
+ .btn-paypal {
+     background-color: rgb(0, 119, 255);
+     color: white;
+ }
+
+ .non-active {
+     opacity: 0.6;
+ }
+ 
+ .hiddenModal {
+    transition: 0.3s;
+    top: 0vh;
+    opacity: 0;
+ }
+
+ .notYet {
+     font-size: 13px;
+ }
+
+ .btn-dana-gateway {
+     width: max-content;
+     margin-top: 15px;
+     height: 38px;
+     border: none;
+     margin-left: 40px;
+     outline: none;
+     border-radius: 60px;
+     padding: 4px 10px;
+     color: white;
+     font-weight: 500;
+     background-color: rgb(4, 69, 245);
+     transition: 0.3s;
+ }
+
+ .btn-dana-gateway:hover {
+     transition: 0.3s;
+     transform: scale(0.97);
+ }
+
+ .btn-dana-gateway:hover sup {
+    margin-left: 0px;
+    transition: 0.5s;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btn-dana-gateway sup {
+    position: absolute;
+    margin-left: 0px;
+    font-size: 16px;
+    transition: 0.5s;
+     margin-top: 20px;
+     background-color:  rgb(4, 69, 245);
+     color: rgb(255, 255, 255);
+     border-radius: 30px;
+     padding: 4px 4px;
+     font-weight: 500;
+ }
+ 
+ .showModal-6gsdz {
+    transition: 0.5s;
+    top: 20vh;
+    opacity: 1;
+ }
+ 
+ .hiddenSModals {
+    z-index: -5;
+    transition: 0.3s;
+    opacity: 0;
+ }
+ 
+ .showSModals {
+    z-index: 9999;
+    transition: 0.5s;
+    opacity: 1;
+ }
+ 
+ @media screen and (max-width: 510px){
+    .v-modal-content {
+       position: absolute;
+       top: 10vh;
+       width: 90%;
+       min-height: 250px;
+       overflow: hidden;
+       border-radius: 8px;
+       opacity: 1;
+       z-index: 3;
+       background-color: #fff;
+       animation: slideUp-12gdg .5s ease-in;
+       box-shadow: 2px 2px 20px rgb(73, 73, 73);
+       transform: scale() rotateX(90deg);
+    }
+ }
+ 
+ .btn-donate {
+    position: relative;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgb(109, 109, 109);
+    padding: 6px 8px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ .btn-donate:active {
+    margin-top: -9px;
+    transition: 0.3s;
+ }
+
 ::-webkit-scrollbar {
     background-color: rgb(255, 255, 255);
     width: 10px;
@@ -59,6 +299,7 @@ body {
     height: 500px;
     border-radius: 7px;
     overflow: auto;
+    z-index: 8;
     margin-top: 100px;
 }
 
@@ -67,6 +308,7 @@ body {
     width: 90%;
     font-size: 20px;
     margin: 4px;
+    z-index: 9;
     cursor: pointer;
     border-bottom: 1px solid rgb(224, 224, 224);
     transition: 0.2s;
@@ -148,6 +390,12 @@ pre, code {
     }
 }
 
+@media screen and (max-width: 1300px) {
+    .btn-dana-gateway {
+        display: none;
+    }
+}
+
 @media(max-width: 767px) {
     .header-navbar {
         background-color: rgb(34, 30, 58);
@@ -165,6 +413,7 @@ pre, code {
         display: block;
         height: 350px;
         border-radius: 7px;
+        z-index: 8;
         overflow: auto;
         margin-top: 100px;
     }
