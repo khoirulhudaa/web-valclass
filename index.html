@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="theme-assets/css/pages/dashboard-ecommerce.css">
     <link rel="stylesheet" href="theme-assets/css/light.css">
     <link rel="stylesheet" href="theme-assets/css/responsive.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
     <style>
         html {
             scroll-behavior: smooth;
@@ -509,8 +510,9 @@
                                 <div class="col-xl-12 col-lg-12 col-md-12">
                                     <div class="card pull-up ecom-card-1 bg-white overflow-hidden">
                                         <div class="card-content ecom-card2 height-180">
-                                            <div>
-                                                <i class="la la-chain danger font-large-1 float-right p-1"></i>
+                                            <div class="copy" onclick="copy_text()">
+                                                <i class="la la-copy font-large-1 float-right p-1"></i>
+                                                <input style="opacity: 0;position: absolute;z-index: -9999;" value="https://cdn.jsdelivr.net/gh/valclassdevelop/valclassDocumentation/valclass.js" id="pilih">
                                             </div>
                                             <div
                                                 class="progress-stats-container ct-golden-section height-75 position-relative pt-4 pl-1">
@@ -636,8 +638,18 @@
         </div>
         <div class="clearfix clr3 blue-grey d-none lighten-2 text-sm-center mb-0 px-2"><span
                 class="float-md-left d-block d-md-inline-block">School | SMKN 1 Kota Cirebon</span>
-        </div>
-    </footer>
+            </div>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+
+    <script>
+        function copy_text() {
+          document.getElementById("pilih").select();
+          document.execCommand("copy");
+          swal("Copy successfully", "", "success")
+        }
+    </script>
 
     <script>
 
