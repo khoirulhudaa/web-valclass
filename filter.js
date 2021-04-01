@@ -125,7 +125,8 @@ inputBox.onkeyup = (e) => {
 function showSuggestions (list) {
     let listData;
     if(!list.length) {
-
+        userValue = inputBox.value;
+        listData = `<li>${userValue}</li>`
     }else {
         listData = list.join('')
     }
